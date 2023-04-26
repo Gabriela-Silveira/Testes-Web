@@ -33,3 +33,6 @@ class Tests:
 
     # Valida
         assert self.driver.find_element(By.CSS_SELECTOR, "p:nth-child(1) > font:nth-child(1) > font").text == "Hello"
+        
+    ![Captura de tela 2023-04-26 202549](https://user-images.githubusercontent.com/108082488/234723497-f73c03b4-df95-4030-8ac7-ba4219e5c4d3.jpg)
+
