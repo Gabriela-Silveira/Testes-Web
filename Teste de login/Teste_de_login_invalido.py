@@ -31,9 +31,9 @@ class Testes:
         self.driver.find_element(By.ID, 'rememberme').click() # ativar o lembre de mim
         self.driver.find_element(By.NAME, 'login').click()
 
+        
+    # Valida
         assert self.driver.find_element(By.CSS_SELECTOR, ".woocommerce-error > li").text == "Error: the password you entered for the username " \
                                            "gabriela.gsilveira@hotmail.com is incorrect. Lost your password?"
-
-    # Valida
 
 
