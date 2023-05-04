@@ -17,6 +17,7 @@ info_pag = 'Make your payment directly into our bank account. Please use your Or
            'order won’t be shipped until the funds have cleared in our account. '
 valor_total = ''
 
+# Executa
 class Testes_de_compra:
 
     def setup_method(self):
