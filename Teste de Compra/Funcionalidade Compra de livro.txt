@@ -1,0 +1,11 @@
+Funcionalidade: Compra de livro na loja online com filtro
+
+Cenário: Filtrar uma categoria, adicionar o livro à cesta e concluir a compra
+
+Dado que o usuário esteja na página de compras
+Quando ele seleciona um filtro específico
+E o usuário adiciona um item ao carrinho
+E, acessa a página do carrinho verificando todos os itens e valores
+E ao clicar em concluir compra é redirecionado para a página do pagamento
+E, o usuário pode preencher seus dados de cobrança e selecionar um método de pagamento
+Então, ao confirmar, é redirecionado para a página de confirmação de pedido.
